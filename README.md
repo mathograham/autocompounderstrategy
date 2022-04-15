@@ -1,4 +1,4 @@
-# Autocompounding Strategy and Vault
+# Vault with Autocompounding Strategy
 The contract labeled 'Autocompounder.sol' is an autocompounding strategy vault. It is a proof-of-concept, and it is set up to be used in the following way:
 
  Deposit WETH.e-USDC LP tokens into the contract; the contract will deposit into the chosen staking contract. For this example, that will be MasterChefJoeV3. The specified staking contract produces an ERC20 reward (JOE) that is collected by the vault and divided in half to be swapped for 
